@@ -1,0 +1,51 @@
+.tfm-programacao-page {
+  padding-bottom: var(--tfm-section-y);
+}
+.tfm-programacao-days {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 8px;
+  margin: 32px 0;
+}
+.tfm-programacao-day-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 64px;
+  gap: 2px;
+  border: 1px solid var(--tfm-light-border);
+  background: var(--tfm-white);
+  color: var(--tfm-text-primary);
+  border-radius: var(--tfm-radius-md);
+  font-size: 15px;
+  font-weight: 650;
+}
+.tfm-programacao-day-btn small {
+  font-size: 11px;
+  font-weight: 400;
+}
+.tfm-programacao-day-btn:hover {
+  background: var(--tfm-light-bg);
+}
+.tfm-programacao-day-btn[aria-pressed="true"] {
+  background: var(--tfm-black);
+  border-color: var(--tfm-black);
+  color: var(--tfm-white);
+}
+@media (max-width: 390px) {
+  .tfm-programacao-days {
+    gap: 4px;
+  }
+  .tfm-programacao-day-btn {
+    padding-inline: 2px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 360px) {
+  .tfm-programacao-days {
+    grid-template-columns: repeat(4, minmax(44px, 1fr));
+    gap: 8px;
+  }
+}

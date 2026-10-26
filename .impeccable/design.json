@@ -1,0 +1,499 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-26T14:38:22.569721-03:00",
+  "title": "Design System: Rádio Top FM",
+  "extensions": {
+    "colorMeta": {
+      "tfm-red": {
+        "role": "primary",
+        "displayName": "Vermelho Top FM",
+        "tonalRamp": [
+          "oklch(15.0% 0.2242 24.38)",
+          "oklch(26.43% 0.2242 24.38)",
+          "oklch(37.86% 0.2242 24.38)",
+          "oklch(49.29% 0.2242 24.38)",
+          "oklch(60.71% 0.2242 24.38)",
+          "oklch(72.14% 0.2242 24.38)",
+          "oklch(83.57% 0.2242 24.38)",
+          "oklch(95.0% 0.2242 24.38)"
+        ]
+      },
+      "tfm-red-dark": {
+        "role": "primary",
+        "displayName": "Vermelho de ação",
+        "tonalRamp": [
+          "oklch(15.0% 0.1930 24.93)",
+          "oklch(26.43% 0.1930 24.93)",
+          "oklch(37.86% 0.1930 24.93)",
+          "oklch(49.29% 0.1930 24.93)",
+          "oklch(60.71% 0.1930 24.93)",
+          "oklch(72.14% 0.1930 24.93)",
+          "oklch(83.57% 0.1930 24.93)",
+          "oklch(95.0% 0.1930 24.93)"
+        ]
+      },
+      "tfm-red-soft": {
+        "role": "primary",
+        "displayName": "Vermelho de transmissão",
+        "tonalRamp": [
+          "oklch(15.0% 0.0152 12.42)",
+          "oklch(26.43% 0.0152 12.42)",
+          "oklch(37.86% 0.0152 12.42)",
+          "oklch(49.29% 0.0152 12.42)",
+          "oklch(60.71% 0.0152 12.42)",
+          "oklch(72.14% 0.0152 12.42)",
+          "oklch(83.57% 0.0152 12.42)",
+          "oklch(95.0% 0.0152 12.42)"
+        ]
+      },
+      "tfm-gold": {
+        "role": "secondary",
+        "displayName": "Amarelo de áudio",
+        "tonalRamp": [
+          "oklch(15.0% 0.2004 105.69)",
+          "oklch(26.43% 0.2004 105.69)",
+          "oklch(37.86% 0.2004 105.69)",
+          "oklch(49.29% 0.2004 105.69)",
+          "oklch(60.71% 0.2004 105.69)",
+          "oklch(72.14% 0.2004 105.69)",
+          "oklch(83.57% 0.2004 105.69)",
+          "oklch(95.0% 0.2004 105.69)"
+        ]
+      },
+      "tfm-white": {
+        "role": "neutral",
+        "displayName": "Branco editorial",
+        "tonalRamp": [
+          "oklch(15.0% 0.0000 0.00)",
+          "oklch(26.43% 0.0000 0.00)",
+          "oklch(37.86% 0.0000 0.00)",
+          "oklch(49.29% 0.0000 0.00)",
+          "oklch(60.71% 0.0000 0.00)",
+          "oklch(72.14% 0.0000 0.00)",
+          "oklch(83.57% 0.0000 0.00)",
+          "oklch(95.0% 0.0000 0.00)"
+        ]
+      },
+      "tfm-black": {
+        "role": "neutral",
+        "displayName": "Grafite profundo",
+        "tonalRamp": [
+          "oklch(15.0% 0.0039 286.05)",
+          "oklch(26.43% 0.0039 286.05)",
+          "oklch(37.86% 0.0039 286.05)",
+          "oklch(49.29% 0.0039 286.05)",
+          "oklch(60.71% 0.0039 286.05)",
+          "oklch(72.14% 0.0039 286.05)",
+          "oklch(83.57% 0.0039 286.05)",
+          "oklch(95.0% 0.0039 286.05)"
+        ]
+      },
+      "tfm-ink-3": {
+        "role": "neutral",
+        "displayName": "Grafite de apoio",
+        "tonalRamp": [
+          "oklch(15.0% 0.0073 285.93)",
+          "oklch(26.43% 0.0073 285.93)",
+          "oklch(37.86% 0.0073 285.93)",
+          "oklch(49.29% 0.0073 285.93)",
+          "oklch(60.71% 0.0073 285.93)",
+          "oklch(72.14% 0.0073 285.93)",
+          "oklch(83.57% 0.0073 285.93)",
+          "oklch(95.0% 0.0073 285.93)"
+        ]
+      },
+      "tfm-light-bg": {
+        "role": "neutral",
+        "displayName": "Papel secundário",
+        "tonalRamp": [
+          "oklch(15.0% 0.0013 106.42)",
+          "oklch(26.43% 0.0013 106.42)",
+          "oklch(37.86% 0.0013 106.42)",
+          "oklch(49.29% 0.0013 106.42)",
+          "oklch(60.71% 0.0013 106.42)",
+          "oklch(72.14% 0.0013 106.42)",
+          "oklch(83.57% 0.0013 106.42)",
+          "oklch(95.0% 0.0013 106.42)"
+        ]
+      },
+      "tfm-light-text": {
+        "role": "neutral",
+        "displayName": "Tinta de leitura",
+        "tonalRamp": [
+          "oklch(15.0% 0.0056 285.98)",
+          "oklch(26.43% 0.0056 285.98)",
+          "oklch(37.86% 0.0056 285.98)",
+          "oklch(49.29% 0.0056 285.98)",
+          "oklch(60.71% 0.0056 285.98)",
+          "oklch(72.14% 0.0056 285.98)",
+          "oklch(83.57% 0.0056 285.98)",
+          "oklch(95.0% 0.0056 285.98)"
+        ]
+      },
+      "tfm-light-text-secondary": {
+        "role": "neutral",
+        "displayName": "Tinta secundária",
+        "tonalRamp": [
+          "oklch(15.0% 0.0098 285.98)",
+          "oklch(26.43% 0.0098 285.98)",
+          "oklch(37.86% 0.0098 285.98)",
+          "oklch(49.29% 0.0098 285.98)",
+          "oklch(60.71% 0.0098 285.98)",
+          "oklch(72.14% 0.0098 285.98)",
+          "oklch(83.57% 0.0098 285.98)",
+          "oklch(95.0% 0.0098 285.98)"
+        ]
+      },
+      "tfm-light-text-muted": {
+        "role": "neutral",
+        "displayName": "Tinta de metadados",
+        "tonalRamp": [
+          "oklch(15.0% 0.0125 285.94)",
+          "oklch(26.43% 0.0125 285.94)",
+          "oklch(37.86% 0.0125 285.94)",
+          "oklch(49.29% 0.0125 285.94)",
+          "oklch(60.71% 0.0125 285.94)",
+          "oklch(72.14% 0.0125 285.94)",
+          "oklch(83.57% 0.0125 285.94)",
+          "oklch(95.0% 0.0125 285.94)"
+        ]
+      },
+      "tfm-light-border": {
+        "role": "neutral",
+        "displayName": "Régua leve",
+        "tonalRamp": [
+          "oklch(15.0% 0.0027 286.35)",
+          "oklch(26.43% 0.0027 286.35)",
+          "oklch(37.86% 0.0027 286.35)",
+          "oklch(49.29% 0.0027 286.35)",
+          "oklch(60.71% 0.0027 286.35)",
+          "oklch(72.14% 0.0027 286.35)",
+          "oklch(83.57% 0.0027 286.35)",
+          "oklch(95.0% 0.0027 286.35)"
+        ]
+      },
+      "tfm-border-strong": {
+        "role": "neutral",
+        "displayName": "Contorno de controle",
+        "tonalRamp": [
+          "oklch(15.0% 0.0116 286.10)",
+          "oklch(26.43% 0.0116 286.10)",
+          "oklch(37.86% 0.0116 286.10)",
+          "oklch(49.29% 0.0116 286.10)",
+          "oklch(60.71% 0.0116 286.10)",
+          "oklch(72.14% 0.0116 286.10)",
+          "oklch(83.57% 0.0116 286.10)",
+          "oklch(95.0% 0.0116 286.10)"
+        ]
+      },
+      "tfm-on-dark-muted": {
+        "role": "neutral",
+        "displayName": "Texto secundário sobre grafite",
+        "tonalRamp": [
+          "oklch(15.0% 0.0082 286.22)",
+          "oklch(26.43% 0.0082 286.22)",
+          "oklch(37.86% 0.0082 286.22)",
+          "oklch(49.29% 0.0082 286.22)",
+          "oklch(60.71% 0.0082 286.22)",
+          "oklch(72.14% 0.0082 286.22)",
+          "oklch(83.57% 0.0082 286.22)",
+          "oklch(95.0% 0.0082 286.22)"
+        ]
+      },
+      "tfm-focus": {
+        "role": "functional",
+        "displayName": "Azul de foco",
+        "tonalRamp": [
+          "oklch(15.0% 0.1855 257.73)",
+          "oklch(26.43% 0.1855 257.73)",
+          "oklch(37.86% 0.1855 257.73)",
+          "oklch(49.29% 0.1855 257.73)",
+          "oklch(60.71% 0.1855 257.73)",
+          "oklch(72.14% 0.1855 257.73)",
+          "oklch(83.57% 0.1855 257.73)",
+          "oklch(95.0% 0.1855 257.73)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Títulos de página; a matéria ajusta sua entrelinha e tamanho compacto."
+      },
+      "headline": {
+        "displayName": "Manchete",
+        "purpose": "Título do destaque principal de notícias."
+      },
+      "title": {
+        "displayName": "Título de seção",
+        "purpose": "Seções recorrentes e faixa promocional."
+      },
+      "card-title": {
+        "displayName": "Título de card",
+        "purpose": "Notícia regular; variantes compacta e lista ajustam a escala."
+      },
+      "body": {
+        "displayName": "Corpo da interface",
+        "purpose": "Texto e descrição geral da interface."
+      },
+      "article": {
+        "displayName": "Leitura longa",
+        "purpose": "Corpo de matéria com medida editorial limitada."
+      },
+      "label": {
+        "displayName": "Editoria",
+        "purpose": "Rótulo editorial com destaque de peso e cor."
+      },
+      "metadata": {
+        "displayName": "Metadados",
+        "purpose": "Data e informações complementares."
+      },
+      "control": {
+        "displayName": "Controle",
+        "purpose": "Botões principais e secundários."
+      },
+      "navigation": {
+        "displayName": "Navegação",
+        "purpose": "Links do masthead."
+      }
+    },
+    "motion": [
+      {
+        "name": "tfm-fast",
+        "value": "160ms ease-out",
+        "purpose": "Transições de cor e fundo dos botões."
+      },
+      {
+        "name": "carousel-slide",
+        "value": "300ms ease-out",
+        "purpose": "Deslocamento horizontal do carrossel de programas."
+      },
+      {
+        "name": "carousel-interval",
+        "value": "4000ms",
+        "purpose": "Intervalo padrão de rotação, suspenso em foco, hover, aba oculta, pausa manual ou movimento reduzido."
+      },
+      {
+        "name": "loading-spin",
+        "value": "0.8s linear infinite",
+        "purpose": "Indicador de carregamento; removido com movimento reduzido."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "very-narrow",
+        "value": "360px",
+        "purpose": "max-width: ajustes do masthead, equipe e dias da semana."
+      },
+      {
+        "name": "carousel-controls",
+        "value": "380px",
+        "purpose": "max-width: controles do carrossel podem quebrar linha."
+      },
+      {
+        "name": "schedule-days-compact",
+        "value": "390px",
+        "purpose": "max-width: tipografia e espaço dos dias da semana."
+      },
+      {
+        "name": "small-mobile",
+        "value": "540px",
+        "purpose": "max-width: marca, menu, cards de equipe e grades auxiliares."
+      },
+      {
+        "name": "compact-reading-audio",
+        "value": "640px",
+        "purpose": "max-width: leitura, busca, listas de notícias, player e controles."
+      },
+      {
+        "name": "compact-headlines",
+        "value": "680px",
+        "purpose": "max-width: manchete em uma linha própria; secundárias em duas colunas."
+      },
+      {
+        "name": "compact-schedule",
+        "value": "700px",
+        "purpose": "max-width em grade e promoção; mínimo no carrossel para dois itens."
+      },
+      {
+        "name": "institutional-stack",
+        "value": "800px",
+        "purpose": "max-width: conteúdo institucional vira uma coluna."
+      },
+      {
+        "name": "mobile-navigation",
+        "value": "899px",
+        "purpose": "max-width: navegação expansível."
+      },
+      {
+        "name": "content-columns",
+        "value": "900px",
+        "purpose": "max-width: redução de grades e empilhamento do contato; min-width em JS fecha menu compacto."
+      },
+      {
+        "name": "team-three-columns",
+        "value": "1000px",
+        "purpose": "max-width: equipe passa para três colunas."
+      },
+      {
+        "name": "masthead-tight",
+        "value": "1050px",
+        "purpose": "max-width: remove slogan e reduz espaço da navegação."
+      },
+      {
+        "name": "carousel-three-items",
+        "value": "1060px",
+        "purpose": "min-width: carrossel mostra três itens."
+      },
+      {
+        "name": "headlines-two-columns",
+        "value": "1100px",
+        "purpose": "max-width: os resumos laterais vão para uma linha abaixo."
+      },
+      {
+        "name": "carousel-four-items",
+        "value": "1400px",
+        "purpose": "min-width: carrossel mostra quatro itens."
+      }
+    ],
+    "focusRings": [
+      {
+        "name": "keyboard-focus",
+        "value": "3px solid var(--tfm-focus)",
+        "offset": "4px",
+        "purpose": "Foco visível global."
+      },
+      {
+        "name": "search-focus",
+        "value": "3px solid var(--tfm-focus)",
+        "offset": "3px",
+        "purpose": "Focus-within envolve todo o campo de busca."
+      }
+    ],
+    "notes": [
+      "Os valores primitivos são normativos no frontmatter de DESIGN.md. Este sidecar contém somente extensões, amostras e narrativa.",
+      "As rampas OKLCH são prévias tonais sintetizadas para o painel; não são tokens de implementação nem autorizam novos tons na interface.",
+      "Os snippets mantêm CSS custom properties com fallbacks extraídos do código, para renderização independente e ligação viva aos tokens quando presentes.",
+      "Amostras de conteúdo são rótulos de documentação. Não representam notícias, horários ou autoria reais.",
+      "O player é um item flex irmão da área rolável. Nunca usar position:fixed, position:sticky ou position:absolute para sobrepô-lo ao site."
+    ]
+  },
+  "components": [
+    {
+      "name": "Botão principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ação principal com vermelho de ação; hover em grafite e foco externo.",
+      "html": "<button type=\"button\" class=\"ds-primary\">Tentar novamente</button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 18px;border:1px solid var(--tfm-border-strong, #9c9ca4);border-radius:var(--tfm-radius-md, 8px);font-family:var(--tfm-font-body, \"Archivo\", Arial, sans-serif);font-size:var(--tfm-text-sm, 0.875rem);font-weight:650;line-height:var(--tfm-leading-body, 1.65);cursor:pointer;transition:background-color var(--tfm-fast, 160ms ease-out),color var(--tfm-fast, 160ms ease-out);background:var(--tfm-red-dark, #bb1925);border-color:var(--tfm-red-dark, #bb1925);color:var(--tfm-white, #fff)}\n.ds-primary:hover{background:var(--tfm-black, #171719);border-color:var(--tfm-black, #171719)}\n.ds-primary:focus-visible{outline:3px solid var(--tfm-focus, #005fcc);outline-offset:4px}\n.ds-primary:disabled{cursor:not-allowed;opacity:.55}\n@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
+    },
+    {
+      "name": "Botão secundário",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Ação de apoio em branco com borda visível e hover suave.",
+      "html": "<button type=\"button\" class=\"ds-secondary\">Carregar mais notícias</button>",
+      "css": ".ds-secondary{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 18px;border:1px solid var(--tfm-border-strong, #9c9ca4);border-radius:var(--tfm-radius-md, 8px);font-family:var(--tfm-font-body, \"Archivo\", Arial, sans-serif);font-size:var(--tfm-text-sm, 0.875rem);font-weight:650;line-height:var(--tfm-leading-body, 1.65);cursor:pointer;transition:background-color var(--tfm-fast, 160ms ease-out),color var(--tfm-fast, 160ms ease-out);background:var(--tfm-white, #fff);color:var(--tfm-text-primary, #202023)}\n.ds-secondary:hover{background:var(--tfm-light-bg, #f5f5f4)}\n.ds-secondary:focus-visible{outline:3px solid var(--tfm-focus, #005fcc);outline-offset:4px}\n.ds-secondary:disabled{cursor:not-allowed;opacity:.55}\n@media(prefers-reduced-motion:reduce){.ds-secondary{transition:none}}"
+    },
+    {
+      "name": "Campo com rótulo",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Campo de contato com nome visível, fundo branco e foco de teclado.",
+      "html": "<label class=\"ds-field\">Seu nome<input class=\"ds-field-input\" type=\"text\" name=\"design-example-name\" autocomplete=\"name\"></label>",
+      "css": ".ds-field{display:grid;gap:8px;max-width:420px;color:var(--tfm-text-primary, #202023);font-family:var(--tfm-font-body, \"Archivo\", Arial, sans-serif);font-size:14px;font-weight:650;line-height:var(--tfm-leading-body, 1.65)}\n.ds-field-input{min-width:0;min-height:48px;padding:10px 12px;border:1px solid var(--tfm-border-strong, #9c9ca4);border-radius:var(--tfm-radius-md, 8px);background:var(--tfm-white, #fff);color:var(--tfm-text-primary, #202023);font-family:var(--tfm-font-body, \"Archivo\", Arial, sans-serif);font-size:var(--tfm-text-md, 1rem);font-weight:400;line-height:var(--tfm-leading-body, 1.65);caret-color:var(--tfm-red-dark, #bb1925)}\n.ds-field-input::placeholder{color:var(--tfm-text-muted, #64646c);opacity:1}\n.ds-field-input:focus-visible{outline:3px solid var(--tfm-focus, #005fcc);outline-offset:4px}"
+    },
+    {
+      "name": "Busca editorial",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Ícone e campo compartilham um contorno; o foco envolve todo o conjunto.",
+      "html": "<label class=\"ds-search\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"/><path d=\"m16 16 4 4\"/></svg><input class=\"ds-search-input\" type=\"search\" aria-label=\"Buscar notícias\" placeholder=\"Buscar por assunto ou palavra-chave\"></label>",
+      "css": ".ds-search{display:flex;align-items:center;gap:12px;width:min(100%,560px);border:1px solid var(--tfm-border-strong, #9c9ca4);border-radius:var(--tfm-radius-md, 8px);padding:0 16px;color:var(--tfm-text-muted, #64646c);font-family:var(--tfm-font-body, \"Archivo\", Arial, sans-serif)}\n.ds-search:focus-within{outline:3px solid var(--tfm-focus, #005fcc);outline-offset:3px}\n.ds-search svg{flex-shrink:0}\n.ds-search-input{min-width:0;width:100%;height:48px;border:0;background:transparent;outline:none;font-family:var(--tfm-font-body, \"Archivo\", Arial, sans-serif);font-size:15px;color:var(--tfm-text-primary, #202023);caret-color:var(--tfm-red-dark, #bb1925)}\n.ds-search-input::placeholder{color:var(--tfm-text-muted, #64646c);opacity:1}\n.ds-search-input:focus-visible{outline:none}"
+    },
+    {
+      "name": "Navegação editorial",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Links horizontais entre réguas; a página atual recebe vermelho e sublinhado estrutural.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Exemplo de navegação\"><a class=\"ds-nav-link\" href=\"/\">Início</a><a class=\"ds-nav-link\" href=\"/noticias\" aria-current=\"page\">Notícias</a><a class=\"ds-nav-link\" href=\"/programacao\">Programação</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:30px;flex-wrap:wrap;border-top:1px solid var(--tfm-light-border, #dddddf);border-bottom:1px solid var(--tfm-light-border, #dddddf);background:var(--tfm-white, #fff);color:var(--tfm-text-primary, #202023);font-family:var(--tfm-font-body, \"Archivo\", Arial, sans-serif)}\n.ds-nav-link{display:flex;align-items:center;min-height:52px;padding-top:3px;border-bottom:3px solid transparent;font-size:14px;font-weight:600;line-height:var(--tfm-leading-body, 1.65);text-decoration:none;color:inherit}\n.ds-nav-link[aria-current=\"page\"]{color:var(--tfm-red-dark, #bb1925);border-bottom-color:var(--tfm-red, #ed2d39)}\n.ds-nav-link:hover{color:var(--tfm-red-dark, #bb1925)}\n.ds-nav-link:focus-visible{outline:3px solid var(--tfm-focus, #005fcc);outline-offset:4px;border-radius:var(--tfm-radius-sm, 4px)}\n@media(max-width:540px){.ds-nav{display:grid;grid-template-columns:1fr;gap:0}}"
+    },
+    {
+      "name": "Filtro de editoria",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Estado neutro e selecionado preservam rótulo e aria-pressed.",
+      "html": "<div class=\"ds-chips\" role=\"group\" aria-label=\"Exemplo de editorias\"><button class=\"ds-chip\" type=\"button\" aria-pressed=\"true\">Todas</button><button class=\"ds-chip\" type=\"button\" aria-pressed=\"false\">Bauru e região</button></div>",
+      "css": ".ds-chips{display:flex;gap:6px;flex-wrap:wrap}\n.ds-chip{min-height:44px;padding:8px 16px;border-radius:var(--tfm-radius-md, 8px);border:1px solid transparent;background:var(--tfm-light-bg, #f5f5f4);color:var(--tfm-text-secondary, #505056);font-family:var(--tfm-font-body, \"Archivo\", Arial, sans-serif);font-size:14px;font-weight:600;line-height:var(--tfm-leading-body, 1.65);cursor:pointer}\n.ds-chip:hover{border-color:var(--tfm-border-strong, #9c9ca4)}\n.ds-chip[aria-pressed=\"true\"]{background:var(--tfm-black, #171719);color:var(--tfm-white, #fff)}\n.ds-chip:focus-visible{outline:3px solid var(--tfm-focus, #005fcc);outline-offset:4px}\n@media(max-width:640px){.ds-chip{padding-inline:12px}}"
+    },
+    {
+      "name": "Card editorial",
+      "kind": "card",
+      "refersTo": "news-card-title",
+      "description": "Card regular com placeholder existente; rótulos são exemplos de documentação, sem notícia ou fotografia inventada.",
+      "html": "<article class=\"ds-news\"><a class=\"ds-news-link\" href=\"/noticias\"><div class=\"ds-news-image\" aria-hidden=\"true\"><svg width=\"32\" height=\"32\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><circle cx=\"8\" cy=\"8\" r=\"1\"/><path d=\"m3 17 5-5 4 4 4-6 5 7\"/></svg></div><div class=\"ds-news-body\"><div class=\"ds-news-meta\"><span class=\"ds-news-tag\">Editoria</span><span class=\"ds-news-date\">Data disponível</span></div><h3 class=\"ds-news-title\">Título da notícia</h3><p class=\"ds-news-summary\">Resumo fornecido pela fonte editorial.</p></div></a></article>",
+      "css": ".ds-news{min-width:0;max-width:380px;font-family:var(--tfm-font-body, \"Archivo\", Arial, sans-serif);color:var(--tfm-text-primary, #202023)}\n.ds-news-link{display:block;height:100%;color:inherit;text-decoration:none}\n.ds-news-image{width:100%;aspect-ratio:16/10;border-radius:var(--tfm-radius-sm, 4px);background:var(--tfm-light-bg, #f5f5f4);display:flex;align-items:center;justify-content:center;color:var(--tfm-text-muted, #64646c)}\n.ds-news-image svg{opacity:.7}\n.ds-news-body{padding-top:14px;min-width:0}\n.ds-news-meta{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center;margin-bottom:8px}\n.ds-news-tag{color:var(--tfm-red-dark, #bb1925);font-size:var(--tfm-text-xs, 0.8125rem);font-weight:700;line-height:1.4}\n.ds-news-date{color:var(--tfm-text-muted, #64646c);font-size:var(--tfm-text-xs, 0.8125rem);line-height:1.5}\n.ds-news-title{margin:0;font-size:20px;font-weight:720;line-height:1.25;letter-spacing:var(--tfm-tracking-tight, -0.025em);text-wrap:balance;overflow-wrap:anywhere}\n.ds-news-link:hover .ds-news-title{color:var(--tfm-red-dark, #bb1925);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}\n.ds-news-link:focus-visible{outline:3px solid var(--tfm-focus, #005fcc);outline-offset:4px;border-radius:var(--tfm-radius-sm, 4px)}\n.ds-news-summary{margin:10px 0 0;color:var(--tfm-text-secondary, #505056);font-size:14px;line-height:1.6;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}"
+    },
+    {
+      "name": "Faixa de áudio",
+      "kind": "custom",
+      "refersTo": "radio-player",
+      "description": "Faixa flex fora da área rolável, nunca overlay. A amostra mostra rádio pausada e volume expandido no tamanho compacto.",
+      "html": "<section class=\"ds-player\" aria-label=\"Exemplo do player da rádio\"><div class=\"ds-player-inner\"><button class=\"ds-player-play\" type=\"button\" aria-label=\"Ouvir ao vivo\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m9 5 11 7-11 7Z\"/></svg></button><div class=\"ds-player-info\"><a class=\"ds-player-title\" href=\"/programacao\">Top FM Bauru</a><p class=\"ds-player-subtitle\">101,3 MHz · Bauru</p></div><p class=\"ds-player-status\"><span aria-hidden=\"true\"></span>Rádio pausada</p><div class=\"ds-player-volume\"><button class=\"ds-player-mute\" type=\"button\" aria-label=\"Silenciar\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m11 5-5 4H2v6h4l5 4Z\"/><path d=\"M16 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14\"/></svg></button><input class=\"ds-player-range\" type=\"range\" min=\"0\" max=\"1\" step=\"0.05\" value=\"0.8\" aria-label=\"Volume da rádio\" aria-valuetext=\"80%\"></div><button class=\"ds-player-volume-toggle\" type=\"button\" aria-label=\"Fechar volume\" aria-expanded=\"true\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m11 5-5 4H2v6h4l5 4Z\"/><path d=\"M16 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14\"/></svg></button></div></section>",
+      "css": ".ds-player{position:relative;flex-shrink:0;max-height:50vh;max-height:50dvh;overflow-y:auto;z-index:30;background:var(--tfm-ink-1, #171719);color:var(--tfm-on-dark, #fff);padding-bottom:env(safe-area-inset-bottom,0px);border-top:3px solid var(--tfm-red, #ed2d39);font-family:var(--tfm-font-body, \"Archivo\", Arial, sans-serif)}\n.ds-player-inner{display:flex;align-items:center;gap:16px;min-height:80px;padding-block:12px;width:min(100% - 2 * var(--tfm-gutter, clamp(20px, 3vw, 40px)),var(--tfm-maxw, 1280px));margin-inline:auto}\n.ds-player-play{display:grid;place-items:center;width:48px;height:48px;flex-shrink:0;border:0;border-radius:50%;background:var(--tfm-gold, #fff200);color:var(--tfm-black, #171719);cursor:pointer}\n.ds-player-play:hover{background:var(--tfm-white, #fff)}\n.ds-player-play:focus-visible,.ds-player-title:focus-visible,.ds-player-mute:focus-visible,.ds-player-range:focus-visible,.ds-player-volume-toggle:focus-visible{outline:3px solid var(--tfm-focus, #005fcc);outline-offset:4px;border-radius:var(--tfm-radius-sm, 4px)}\n.ds-player-play:disabled{opacity:.55;cursor:not-allowed}\n.ds-player-info{min-width:0;flex:1;line-height:1.4}\n.ds-player-title{display:block;color:inherit;font-size:15px;font-weight:650;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}\n.ds-player-title:hover{text-decoration:underline}\n.ds-player-subtitle{margin:3px 0 0;font-size:12px;color:var(--tfm-on-dark-muted, #ccccd2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}\n.ds-player-status{display:flex;align-items:center;gap:8px;margin:0;color:var(--tfm-on-dark-muted, #ccccd2);font-size:12px}\n.ds-player-status span{width:6px;height:6px;border-radius:50%;background:currentColor}\n.ds-player-status.ds-is-playing{color:var(--tfm-gold, #fff200)}\n.ds-player-volume{display:flex;align-items:center;gap:4px;margin-left:12px}\n.ds-player-range{width:110px;min-height:44px;margin:0;accent-color:var(--tfm-gold, #fff200)}\n.ds-player-mute,.ds-player-volume-toggle{display:grid;place-items:center;width:44px;height:44px;border:0;background:transparent;color:var(--tfm-white, #fff);cursor:pointer}\n.ds-player-volume-toggle{display:none}\n@media(max-width:640px){.ds-player-inner{min-height:76px;gap:12px;flex-wrap:wrap}.ds-player-play{width:44px;height:44px}.ds-player-status{display:none}.ds-player-volume{order:5;width:100%;margin:0}.ds-player-range{flex:1;width:auto}.ds-player-volume-toggle{display:grid}}"
+    },
+    {
+      "name": "Linha de programação no ar",
+      "kind": "custom",
+      "refersTo": "schedule-live",
+      "description": "Horário tabular e indicação textual sobre fundo suave. Os rótulos são exemplos de documentação.",
+      "html": "<ol class=\"ds-schedule\"><li class=\"ds-schedule-row\"><p class=\"ds-schedule-time\">Horário informado</p><div class=\"ds-schedule-image\" aria-hidden=\"true\"><svg width=\"32\" height=\"32\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><circle cx=\"8\" cy=\"8\" r=\"1\"/><path d=\"m3 17 5-5 4 4 4-6 5 7\"/></svg></div><div class=\"ds-schedule-info\"><h3 class=\"ds-schedule-title\">Título do programa</h3><p class=\"ds-schedule-presenter\">Apresentador informado</p></div><span class=\"ds-schedule-live\">No ar agora</span></li></ol>",
+      "css": ".ds-schedule{list-style:none;margin:0;padding:0;font-family:var(--tfm-font-body, \"Archivo\", Arial, sans-serif);color:var(--tfm-text-primary, #202023)}\n.ds-schedule-row{display:grid;grid-template-columns:156px 56px minmax(0,1fr) auto;align-items:center;gap:24px;padding:20px 16px;border-block:1px solid var(--tfm-light-border, #dddddf);background:var(--tfm-red-soft, #fff1f2)}\n.ds-schedule-time{margin:0;font-size:15px;font-weight:650;font-variant-numeric:tabular-nums;line-height:var(--tfm-leading-body, 1.65)}\n.ds-schedule-image{display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:var(--tfm-radius-md, 8px);background:var(--tfm-light-bg, #f5f5f4);color:var(--tfm-text-muted, #64646c)}\n.ds-schedule-image svg{opacity:.7}\n.ds-schedule-title{margin:0;font-size:19px;line-height:1.3;letter-spacing:var(--tfm-tracking-tight, -0.025em);text-wrap:balance;overflow-wrap:anywhere}\n.ds-schedule-presenter{margin:4px 0 0;font-size:14px;color:var(--tfm-text-muted, #64646c);line-height:var(--tfm-leading-body, 1.65)}\n.ds-schedule-live{display:flex;align-items:center;gap:8px;color:var(--tfm-red-dark, #bb1925);font-size:13px;font-weight:700;line-height:var(--tfm-leading-body, 1.65)}\n.ds-schedule-live::before{content:\"\";width:6px;height:6px;border-radius:50%;background:currentColor;flex-shrink:0}\n@media(max-width:700px){.ds-schedule-row{grid-template-columns:112px minmax(0,1fr);gap:8px 16px;padding:20px 12px}.ds-schedule-image{display:none}.ds-schedule-time{align-self:start;font-size:13px}.ds-schedule-title{font-size:17px}.ds-schedule-live{grid-column:2}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Mesa editorial",
+    "overview": "Uma mesa editorial clara e organizada: branco para a leitura, grafite para dar peso à informação e vermelho para orientar ações. A hierarquia nasce de títulos, imagens, alinhamentos e réguas finas. O conjunto é profissional e próximo, com densidade de portal e espaço suficiente para distinguir o que importa.\n\nA voz visual usa uma única família tipográfica. O áudio permanece acessível em uma faixa escura própria, com amarelo nos controles; o conteúdo editorial fica visível imediatamente. A identidade usa o nome e o arquivo original da Top FM, sem redesenhar a marca. A logo circular original recebida em `public/logo.png` foi integrada sem alteração; o fallback textual é apenas uma contingência de carregamento, não uma nova assinatura.",
+    "keyCharacteristics": [
+      "Leitura clara sobre branco, com títulos em grafite e divisores discretos.",
+      "Archivo em toda a interface, com contraste de escala e peso.",
+      "Vermelho original nas réguas; vermelho escuro em ações e editorias.",
+      "Faixa de áudio persistente no fluxo flex, separada da área rolável.",
+      "Superfícies planas, fotografias sem texto sobreposto e foco visível."
+    ],
+    "rules": [
+      {
+        "name": "The Action Contrast Rule",
+        "body": "Use o vermelho escuro nas ações e nos textos pequenos sobre branco; preserve o vermelho original nas réguas e sinais de marca.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Family Rule",
+        "body": "Construa a hierarquia com escala, peso e espaço dentro da Archivo; preserve a família única em títulos, leitura e controles.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Diferencie superfícies por cor, borda e espaço; não acrescente sombras a cards, menus ou ao player.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** use Archivo e os papéis tipográficos documentados para construir a hierarquia.",
+      "**Do** mantenha o vermelho original nas réguas e o vermelho escuro nos textos e ações sobre branco.",
+      "**Do** preserve o player como faixa flex irmã da área rolável, deixando sua altura participar do layout.",
+      "**Do** mantenha imagens e texto editorial em blocos separados, com espaço e divisores para organizar a leitura.",
+      "**Do** preserve foco visível, nomes acessíveis, estados de seleção e controles de áudio utilizáveis no celular.",
+      "**Do** mostre apenas os metadados, imagens e informações editoriais que existem na fonte."
+    ],
+    "donts": [
+      "**Don't** transforme o player em uma barra fixa sobre o conteúdo ou compense uma sobreposição com altura presumida.",
+      "**Don't** acrescente sombras, efeito de vidro ou animações de entrada ao sistema editorial plano.",
+      "**Don't** substitua a marca por uma nova versão desenhada, recorte o logo ou invente fotografias para preencher lacunas.",
+      "**Don't** crie uma segunda família tipográfica, filtros em pílula ou novos tons a partir dos tokens declarados sem uso.",
+      "**Don't** use somente cor para comunicar seleção, foco, reprodução ou indisponibilidade.",
+      "**Don't** remova as alternativas de pausa ou ignore a preferência por movimento reduzido."
+    ]
+  }
+}

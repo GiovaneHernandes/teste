@@ -1,0 +1,44 @@
+.tfm-team-card {
+  min-width: 0;
+}
+.tfm-team-card-img {
+  aspect-ratio: 4/5;
+  border-radius: var(--tfm-radius-md);
+  width: 100%;
+}
+.tfm-team-card-img img {
+  object-position: center top;
+}
+.tfm-team-card-body {
+  padding-top: 16px;
+}
+.tfm-team-card-name {
+  font-size: 21px;
+}
+.tfm-team-card-cargo {
+  color: var(--tfm-text-secondary);
+  font-size: 14px;
+  margin-top: 6px;
+}
+.tfm-team-card-desc {
+  color: var(--tfm-text-muted);
+  font-size: 14px;
+  margin-top: 10px;
+}
+.tfm-team-card-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  font-size: 13px;
+  color: var(--tfm-red-dark);
+  margin-top: 4px;
+}
+.tfm-team-card-social:hover {
+  text-decoration: underline;
+}
+@media (max-width: 540px) {
+  .tfm-team-card-name {
+    font-size: 18px;
+  }
+}

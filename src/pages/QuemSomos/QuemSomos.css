@@ -1,0 +1,110 @@
+.tfm-quemsomos-inner {
+  width: min(100% - 2 * var(--tfm-gutter), var(--tfm-maxw));
+  margin: auto;
+  padding-bottom: var(--tfm-section-y);
+}
+.tfm-quemsomos-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 64px;
+  margin-bottom: 56px;
+}
+.tfm-quemsomos-heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.tfm-quemsomos-text {
+  max-width: 65ch;
+  color: var(--tfm-text-secondary);
+  font-size: 17px;
+  line-height: 1.8;
+}
+.tfm-quemsomos-img {
+  aspect-ratio: 4/3;
+  border-radius: var(--tfm-radius-md);
+}
+.tfm-quemsomos-sep {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 48px 0 24px;
+}
+.tfm-quemsomos-sep-titulo {
+  font-size: 26px;
+}
+.tfm-quemsomos-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--tfm-light-border);
+}
+.tfm-quemsomos-stat-value {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+.tfm-quemsomos-stat-label {
+  color: var(--tfm-text-secondary);
+  font-size: 14px;
+  margin-top: 4px;
+}
+.tfm-quemsomos-footnote {
+  margin-top: 20px;
+  color: var(--tfm-text-muted);
+  font-size: 13px;
+}
+.tfm-quemsomos-mapa {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  margin-top: 40px;
+}
+.tfm-quemsomos-coverage {
+  width: 100%;
+  aspect-ratio: 4/3;
+}
+.tfm-quemsomos-coverage img {
+  object-fit: contain !important;
+}
+.tfm-quemsomos-mapa-texto h3 {
+  font-size: 25px;
+  margin-bottom: 16px;
+}
+.tfm-quemsomos-mapa-texto p {
+  color: var(--tfm-text-secondary);
+}
+.tfm-quemsomos-mapa-destaque {
+  display: block;
+  margin-top: 20px;
+  font-weight: 650;
+}
+.tfm-quemsomos-diferenciais {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+}
+.tfm-quemsomos-diferencial {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--tfm-light-border);
+}
+@media (max-width: 800px) {
+  .tfm-quemsomos-row,
+  .tfm-quemsomos-mapa {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .tfm-quemsomos-row-reverse > :first-child {
+    order: 2;
+  }
+  .tfm-quemsomos-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 540px) {
+  .tfm-quemsomos-diferenciais {
+    grid-template-columns: 1fr;
+  }
+}

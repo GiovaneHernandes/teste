@@ -1,0 +1,96 @@
+.tfm-destaques {
+  display: grid;
+  grid-template-columns: 1.65fr 1fr 1fr;
+  gap: 28px;
+  align-items: start;
+}
+.tfm-destaques > * {
+  min-width: 0;
+}
+.tfm-destaques.is-solo {
+  display: block;
+  max-width: 760px;
+}
+.tfm-destaques.without-briefs:not(.is-solo) {
+  grid-template-columns: 1.65fr 1fr;
+}
+.tfm-destaques-secondary {
+  display: grid;
+  gap: 24px;
+}
+.tfm-destaques-secondary .tfm-news-titulo {
+  font-size: 20px;
+}
+.tfm-destaques-secondary .tfm-news-resumo {
+  display: none;
+}
+.tfm-destaques-secondary .tfm-news-foto {
+  aspect-ratio: 16/9;
+}
+.tfm-destaques-briefs {
+  border-left: 1px solid var(--tfm-light-border);
+  padding-left: 28px;
+}
+.tfm-destaques-briefs .tfm-news {
+  padding-block: 20px;
+  border-bottom: 1px solid var(--tfm-light-border);
+}
+.tfm-destaques-briefs .tfm-news:last-child {
+  border-bottom: 0;
+}
+.tfm-destaques-heading {
+  font-size: 17px;
+  padding-bottom: 4px;
+}
+.tfm-destaques-briefs .tfm-news--row .tfm-news-foto {
+  display: none;
+}
+@media (max-width: 1100px) {
+  .tfm-destaques {
+    grid-template-columns: 1.5fr 1fr;
+  }
+  .tfm-destaques-briefs {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    border-left: 0;
+    padding-left: 0;
+    border-top: 1px solid var(--tfm-light-border);
+  }
+  .tfm-destaques-heading {
+    grid-column: 1/-1;
+    padding-top: 20px;
+  }
+  .tfm-destaques-briefs .tfm-news {
+    padding: 0;
+    border-bottom: 0;
+  }
+}
+@media (max-width: 680px) {
+  .tfm-destaques,
+  .tfm-destaques.without-briefs:not(.is-solo) {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .tfm-destaques-secondary {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-top: 24px;
+    border-top: 1px solid var(--tfm-light-border);
+  }
+  .tfm-destaques-secondary .tfm-news-titulo {
+    font-size: 18px;
+  }
+  .tfm-destaques-briefs {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .tfm-destaques-briefs .tfm-news {
+    padding-block: 18px;
+    border-bottom: 1px solid var(--tfm-light-border);
+  }
+  .tfm-destaques-briefs .tfm-news--row .tfm-news-foto {
+    display: flex;
+  }
+}

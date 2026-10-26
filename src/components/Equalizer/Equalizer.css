@@ -1,0 +1,53 @@
+.tfm-eq {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.tfm-eq-bar {
+  width: 2.5px;
+  height: 25%;
+  border-radius: 1px;
+  background: currentColor;
+  transform-origin: bottom;
+}
+
+/* Alturas iniciais diferentes por barra, para que o conjunto não pulse em
+   bloco. O atraso negativo escalonado mantém as barras fora de fase. */
+.tfm-eq--ativo .tfm-eq-bar {
+  animation: tfm-eq-salto 0.9s ease-in-out infinite alternate;
+  animation-delay: calc(var(--tfm-eq-i) * -0.23s);
+}
+
+.tfm-eq-bar:nth-child(2) {
+  height: 60%;
+}
+
+.tfm-eq-bar:nth-child(3) {
+  height: 35%;
+}
+
+.tfm-eq-bar:nth-child(4) {
+  height: 75%;
+}
+
+.tfm-eq-bar:nth-child(5) {
+  height: 45%;
+}
+
+@keyframes tfm-eq-salto {
+  from {
+    transform: scaleY(0.28);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tfm-eq--ativo .tfm-eq-bar {
+    animation: none;
+  }
+}

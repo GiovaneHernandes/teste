@@ -1,0 +1,204 @@
+{
+  "data": "2026-10-26",
+  "resultado": "Build e verificações da integração passaram com package.json e public fornecidos.",
+  "ambiente": {
+    "tipo": "Projeto completo com package.json original, index.html e public fornecidos.",
+    "navegador": "153.0.8010.0",
+    "node": "v24.22.1",
+    "dependencias": {
+      "react": "18.3.1",
+      "react-dom": "18.3.1",
+      "react-router-dom": "6.30.6",
+      "axios": "1.20.0",
+      "vite": "5.4.21",
+      "@vitejs/plugin-react": "4.7.0",
+      "axe-core": "4.14.0"
+    },
+    "sistema": "Linux headless; emulação de viewport, sem dispositivos físicos.",
+    "lockfile": "Gerado nesta integração, respeitando as faixas do package.json enviado. Lockfile original não fornecido."
+  },
+  "build": {
+    "status": "passou",
+    "comando": "npm run build",
+    "modulos": 142,
+    "javascript_bytes": 276373,
+    "css_bytes": 34185,
+    "fontes_woff2_incluidas": 2,
+    "preview_producao": {
+      "status": "passou",
+      "rotas": 9,
+      "larguras_css_px": [
+        1440,
+        390
+      ],
+      "checks": [
+        "React 18: atributo nativo fetchpriority=high confirmado sem aviso de prop desconhecida; fonte Google removida e favicon original acessível.",
+        "Bundle de produção: / @ 1440 px carregou, com logo e sem autoplay.",
+        "Bundle de produção: /noticias @ 1440 px carregou, com logo e sem autoplay.",
+        "Bundle de produção: /noticias/1 @ 1440 px carregou, com logo e sem autoplay.",
+        "Bundle de produção: /programacao @ 1440 px carregou, com logo e sem autoplay.",
+        "Bundle de produção: /programas @ 1440 px carregou, com logo e sem autoplay.",
+        "Bundle de produção: /equipe @ 1440 px carregou, com logo e sem autoplay.",
+        "Bundle de produção: /quem-somos @ 1440 px carregou, com logo e sem autoplay.",
+        "Bundle de produção: /contato @ 1440 px carregou, com logo e sem autoplay.",
+        "Bundle de produção: /pagina-ausente @ 1440 px carregou, com logo e sem autoplay.",
+        "Bundle de produção: / @ 390 px carregou, com logo e sem autoplay.",
+        "Bundle de produção: /noticias @ 390 px carregou, com logo e sem autoplay.",
+        "Bundle de produção: /noticias/1 @ 390 px carregou, com logo e sem autoplay.",
+        "Bundle de produção: /programacao @ 390 px carregou, com logo e sem autoplay.",
+        "Bundle de produção: /programas @ 390 px carregou, com logo e sem autoplay.",
+        "Bundle de produção: /equipe @ 390 px carregou, com logo e sem autoplay.",
+        "Bundle de produção: /quem-somos @ 390 px carregou, com logo e sem autoplay.",
+        "Bundle de produção: /contato @ 390 px carregou, com logo e sem autoplay.",
+        "Bundle de produção: /pagina-ausente @ 390 px carregou, com logo e sem autoplay."
+      ]
+    },
+    "observacao": "Dependências instaladas pelo package.json recebido. Não há scripts de lint ou teste nesse package."
+  },
+  "cobertura_visual": {
+    "rotas": [
+      "/",
+      "/noticias",
+      "/noticias/1",
+      "/programacao",
+      "/programas",
+      "/equipe",
+      "/quem-somos",
+      "/contato",
+      "/pagina-ausente"
+    ],
+    "larguras_css_px": [
+      1440,
+      768,
+      390,
+      320
+    ],
+    "capturas_com_verificacao_geometrica": 43,
+    "verificacoes": [
+      "Ausência de overflow horizontal",
+      "Área de conteúdo separada da faixa do player",
+      "Player dentro do viewport",
+      "Arquivo Archivo carregado",
+      "Logo original carregada no cabeçalho e rodapé; 17 imagens da página Quem Somos carregadas nas quatro larguras."
+    ],
+    "complementos": [
+      "Rodapé mobile",
+      "Volume mobile aberto",
+      "Contatos nos quatro tamanhos",
+      "Corpo da matéria nos quatro tamanhos",
+      "Texto a 200%",
+      "Listagem após correção de variante"
+    ]
+  },
+  "acessibilidade_automatizada": {
+    "ferramenta": "axe-core",
+    "escaneamentos": 18,
+    "tags": [
+      "wcag2a",
+      "wcag2aa",
+      "wcag21aa"
+    ],
+    "violacoes_encontradas": 0,
+    "limite": "Resultado restrito aos cenários capturados. Não é certificação WCAG nem teste com leitor de tela."
+  },
+  "cenarios_funcionais": [
+    "Notícias: destaques e lista disjuntos; carregar mais 11 → 19 → 22.",
+    "Busca sem acentos, filtro de categoria, ausência de resultados e limpeza.",
+    "Corpo HTML formatado; autoria condicional, sem nome inventado.",
+    "Grade troca de dia e retira destaque de no ar nos outros dias.",
+    "Formulário exige nome/mensagem e valida e-mail sem enviar mensagens.",
+    "Menu mobile, Escape, foco devolvido, navegação e volume expansível; rodapé fica acima do player.",
+    "Mídia simulada: sem autoplay; áudio persistente por Home, lista, matéria e link interno; reconexão respeita mute; stalled/waiting recupera após 15 s; pausa cancela timers; bloqueio permite novo play; limite de quatro reconexões respeitado.",
+    "Conteúdo HTML: scripts, eventos inline, iframes e javascript: descartados.",
+    "320 px: dias com alvos ≥44 px; link de compartilhamento, cópia/fallback e pular para conteúdo.",
+    "Carregamento exibido e substituído pelo conteúdo; texto ampliado em 200%.",
+    "Estados de erro, vazio, notícia única, títulos longos e imagem ausente em 390 px."
+  ],
+  "erros_javascript_nao_tratados": [],
+  "revisao_visual": {
+    "veredito": "ship",
+    "escopo": "Somente os três achados materiais da primeira revisão.",
+    "achados": [
+      {
+        "problema": "Player sobrepondo conteúdo",
+        "estado": "resolved"
+      },
+      {
+        "problema": "E-mail espremido no Contato",
+        "estado": "resolved"
+      },
+      {
+        "problema": "Fonte de plataforma no display",
+        "estado": "resolved"
+      }
+    ],
+    "continuidade": "O revisor original não estava mais disponível após a retomada. O verdict pass foi realizado por novo revisor isolado, usando a lista de achados e as capturas finais."
+  },
+  "auditoria_impeccable": {
+    "execucoes_detector": 1,
+    "saida": [],
+    "limite": "A saída não detalha cobertura de regras e arquivos; não foi usada como prova de auditoria abrangente."
+  },
+  "arquivos_protegidos": {
+    "services/api.js": {
+      "identico_ao_anexo": true,
+      "sha256": "51907c347d76c3a240e90fa2804da8cbaf15b4d2e1a5ad44c9d37c09ab87afb2"
+    },
+    "config/radio.js": {
+      "identico_ao_anexo": true,
+      "sha256": "b964ec44add170f14c3a89713597c3e04938c7d3a7969f282a65b4407c02caff"
+    },
+    "main.jsx": {
+      "identico_ao_anexo": true,
+      "sha256": "314a11339bc10e0fe7d442bd4eb2d928e9bc74131354be5052398e6cc013b4f4"
+    },
+    "package.json": {
+      "identico_ao_anexo": true,
+      "sha256": "13164190698d6ce536ee770e65f3be6a72292b739856342f65134442055b31d4"
+    }
+  },
+  "api": {
+    "operacoes": "Somente leitura dos seis endpoints já configurados.",
+    "respostas_http": 200,
+    "amostra": {
+      "noticias": 6,
+      "categorias": 3,
+      "semana": 0,
+      "equipe": 0,
+      "programas": 0
+    },
+    "dados_sinteticos_entregues_no_src": false,
+    "observacao": "Leitura direta dos endpoints na análise inicial. Os testes de navegador usam amostras e fixtures controladas; não certificam conectividade/CORS da hospedagem final."
+  },
+  "limitacoes": [
+    "Lockfile original, variáveis de ambiente e configuração de hospedagem não foram fornecidos. O lockfile entregue foi gerado respeitando as faixas do package.json.",
+    "URL de transmissão preservada aponta para uma página Streema; reprodução real não confirmada.",
+    "Áudio testado com eventos de mídia simulados; nenhuma confirmação de escuta do stream.",
+    "Sem Safari/iOS, dispositivos físicos ou leitor de tela.",
+    "O package.json recebido não define scripts de lint ou teste; foram usados build e testes de navegador separados.",
+    "Fallback de imagens relativas diferente do fallback da API, mantido como recebido.",
+    "Nenhum e-mail ou mensagem externa foi enviado.",
+    "A versão completa não foi publicada; domínio, servidor e CORS de produção não foram modificados nem certificados."
+  ],
+  "revisao_integracao_assets": {
+    "veredito": "ship",
+    "escopo": "Integração dos assets originais, sem reavaliar todo o redesign.",
+    "evidencias": [
+      "Logo original circular proporcional e legível em 320–1440px.",
+      "Fotografia institucional, mapa e galeria carregados sem deformação aparente.",
+      "Sem regressões visuais observadas nos oito screenshots examinados."
+    ],
+    "limite": "A captura do rodapé começa parcialmente sobre o logo devido à posição de rolagem; o carregamento e object-fit: contain foram verificados no DOM.",
+    "revisor": "Revisão independente concluída após retomada; build e testes funcionais executados pelo agente principal."
+  },
+  "assets_originais": {
+    "arquivos_verificados": 27,
+    "todos_identicos_ao_zip": true,
+    "manifesto": "ASSETS.json",
+    "logo_inspecionada_visualmente": true
+  },
+  "avisos_de_desenvolvimento": {
+    "fetchpriority": "Aviso de prop desconhecida do React18 corrigido e ausência confirmada em teste dirigido.",
+    "restantes": "Avisos informativos de futuras opções React Router v7 e diagnósticos existentes de campos de imagem. Erros de 404, 503 e mídia negada ocorreram intencionalmente nos cenários que simulam essas falhas."
+  }
+}

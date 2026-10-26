@@ -1,0 +1,195 @@
+{
+  "verificado_em": "2026-10-26T14:38:22.569721-03:00",
+  "arquivos": [
+    {
+      "arquivo": "public/bastidores-09.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 52975,
+      "sha256": "28ae500a53d25d20a51a52f007cbe4df4216389431d9926ce1f85bfa6b4fa670"
+    },
+    {
+      "arquivo": "public/bastidores-08.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 50190,
+      "sha256": "09679bb4ede774b1fd9d2c669292da26c024751b4739aa8883db696dc1dd9ce5"
+    },
+    {
+      "arquivo": "public/cobertura.png",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 255572,
+      "sha256": "fdb51c189022457f6c8621578898000b4a52be5594fca2078fe974a9917af615"
+    },
+    {
+      "arquivo": "public/placeholder-equipe.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 25028,
+      "sha256": "70176462030da9142c3b8aef79196c326d5b6704939db722dca58bca5274ba65"
+    },
+    {
+      "arquivo": "public/estudio.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 167932,
+      "sha256": "447212990e79da64a97e7cece9f9268a928a63c34049180976950924b88e7000"
+    },
+    {
+      "arquivo": "public/bastidores-fotos.zip",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 678784,
+      "sha256": "fcf4529ea84f9a9609fc8f7fc4069fd4da55335d8403085d6a080b1f8246bd2d"
+    },
+    {
+      "arquivo": "public/placeholder-programa.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 43280,
+      "sha256": "c310b75310703ec997b01397270a1f94f2f769848f88580ef1f2e08104debcf4"
+    },
+    {
+      "arquivo": "public/apple-touch-icon.png",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 33345,
+      "sha256": "6a3728bfedea1eb37f05d690cef0df2cfe4f6d83052acf387533208670cb601f"
+    },
+    {
+      "arquivo": "public/banner.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 3336046,
+      "sha256": "a2933469126f8cf974d46538cf24759c61c1a19cebd6a5bc5723fef14f917a01"
+    },
+    {
+      "arquivo": "public/banner-mobile.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 88501,
+      "sha256": "26a42cf5e077c21070bb5e0a1b682f5a6314f74ddd2b9b5a7dc1c1e8e7b31218"
+    },
+    {
+      "arquivo": "public/lembrancas-fotos.zip",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 788005,
+      "sha256": "9a1368826bfb8b84359edd5f1ff3503060b4244d3ef2485caf9db708c87df5cc"
+    },
+    {
+      "arquivo": "public/favicon.png",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 8583,
+      "sha256": "21046df1dc35e1e1e6342f21d6f88d4d6c48504edead8e74d735799fbef0c0ec"
+    },
+    {
+      "arquivo": "public/textura-sertaneja.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 490757,
+      "sha256": "61f30c3de9e93d0127775235469895caf1f95f278012d15c2dc6e448df80205f"
+    },
+    {
+      "arquivo": "public/logo.png",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 182580,
+      "sha256": "9dfe852d876db7ea0d06add93a15da7e12e00182609fa8d150c9656cee96b633"
+    },
+    {
+      "arquivo": "public/on-air.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 180687,
+      "sha256": "dffbcf7b8c24aa958b1f186d00b5fcb1f1af79d8142760719333d3cd14ba72fe"
+    },
+    {
+      "arquivo": "public/bastidores-14.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 65798,
+      "sha256": "baf83fcaa4c035db9c2967addcb4ddaa6310e972619e1c92fd8281495dca0aa0"
+    },
+    {
+      "arquivo": "public/bastidores-01.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 66179,
+      "sha256": "aefebae26a8c8d7d387c65b1ed8764147168ee20274c7de0cfefa8dd4c1220a4"
+    },
+    {
+      "arquivo": "public/bastidores-03.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 65866,
+      "sha256": "6a1e6d0141213dbbb3eb707406b9f7ee97e1f68777feb296949be88ea7108346"
+    },
+    {
+      "arquivo": "public/bastidores-02.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 53164,
+      "sha256": "bd62266effc1a7627315e779608f20f45405cd66463046f7241710f5fc29ca30"
+    },
+    {
+      "arquivo": "public/bastidores-12.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 71395,
+      "sha256": "e4416f0846d38e480bb26db9a814c4cf18f09471f9caa0b8db45ac9737cd14e5"
+    },
+    {
+      "arquivo": "public/bastidores-06.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 51275,
+      "sha256": "f742a28b63913450556f1d21f2787e650d078fe410fa5ce315bc429b3fbb171f"
+    },
+    {
+      "arquivo": "public/bastidores-07.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 59979,
+      "sha256": "f4bb402b1e2c6652fb623c98624448fadf14aed6327880d268be897e15f30b8a"
+    },
+    {
+      "arquivo": "public/bastidores-13.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 43853,
+      "sha256": "fc1aa3205362714b178958613748afbd9fb7c591205576303766c94d3ab5d57b"
+    },
+    {
+      "arquivo": "public/bastidores-05.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 36514,
+      "sha256": "84c0f5fafdbe932a14d1317b5f5541c9a0513de5abb12119b7aa7da118a0ea3e"
+    },
+    {
+      "arquivo": "public/bastidores-11.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 53595,
+      "sha256": "9ed7e459f962149151fc07fd6f6f1d2e866a7f75bb4fe1ece212fe15482d7408"
+    },
+    {
+      "arquivo": "public/bastidores-10.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 65915,
+      "sha256": "523855cc5568874c0c419da7d5b08aea819a71dc63cff083663e1e3d88bea43d"
+    },
+    {
+      "arquivo": "public/bastidores-04.jpg",
+      "origem": "public.zip fornecido pelo usuário",
+      "modificado": false,
+      "bytes": 65773,
+      "sha256": "88f4b207a009a68c27af8e1c5fcfc4ff05ea60638d589c75a3b9e6017d41d640"
+    }
+  ],
+  "observacao": "Todos os arquivos úteis de public.zip foram preservados. Nenhuma imagem foi gerada ou alterada. Arquivos de metadados do sistema operacional não integram a entrega."
+}

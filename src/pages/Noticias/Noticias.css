@@ -1,0 +1,110 @@
+.tfm-nw-filters {
+  margin-bottom: 32px;
+}
+.tfm-nw-search-row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.tfm-nw-busca {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: min(100%, 560px);
+  border: 1px solid var(--tfm-border-strong);
+  border-radius: var(--tfm-radius-md);
+  padding: 0 16px;
+  color: var(--tfm-text-muted);
+}
+.tfm-nw-busca:focus-within {
+  outline: 3px solid var(--tfm-focus);
+  outline-offset: 3px;
+}
+.tfm-nw-busca input {
+  min-width: 0;
+  width: 100%;
+  height: 48px;
+  border: 0;
+  background: transparent;
+  outline: none;
+  font-size: 15px;
+}
+.tfm-nw-editorias {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.tfm-chip {
+  min-height: 44px;
+  padding: 8px 16px;
+  border-radius: var(--tfm-radius-md);
+  border: 1px solid transparent;
+  background: var(--tfm-light-bg);
+  color: var(--tfm-text-secondary);
+  font-size: 14px;
+  font-weight: 600;
+}
+.tfm-chip:hover {
+  border-color: var(--tfm-border-strong);
+}
+.tfm-chip[aria-pressed="true"] {
+  background: var(--tfm-black);
+  color: var(--tfm-white);
+}
+.tfm-nw-content {
+  padding-bottom: var(--tfm-section-y);
+}
+.tfm-nw-destaques {
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--tfm-light-border);
+}
+.tfm-nw-results {
+  padding-top: 32px;
+}
+.tfm-nw-lista {
+  max-width: 1020px;
+}
+.tfm-nw-lista .tfm-news {
+  padding-block: 24px;
+  border-bottom: 1px solid var(--tfm-light-border);
+}
+.tfm-nw-lista .tfm-news:first-child {
+  padding-top: 0;
+}
+.tfm-nw-more {
+  padding-top: 32px;
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+}
+.tfm-nw-vazio {
+  padding: 28px;
+  background: var(--tfm-light-bg);
+  border-radius: var(--tfm-radius-lg);
+}
+.tfm-nw-vazio h3 {
+  margin-bottom: 8px;
+}
+.tfm-nw-vazio .tfm-btn {
+  margin-top: 20px;
+}
+.tfm-inline-button {
+  border: 0;
+  background: transparent;
+  color: var(--tfm-red-dark);
+  text-decoration: underline;
+  min-height: 44px;
+  padding: 6px;
+}
+@media (max-width: 640px) {
+  .tfm-nw-search-row {
+    flex-wrap: wrap;
+  }
+  .tfm-nw-editorias {
+    gap: 6px;
+  }
+  .tfm-chip {
+    padding-inline: 12px;
+  }
+}

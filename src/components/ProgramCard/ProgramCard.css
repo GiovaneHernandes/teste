@@ -1,0 +1,31 @@
+.tfm-program-card {
+  min-width: 0;
+}
+.tfm-program-card-img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  border-radius: var(--tfm-radius-md);
+}
+.tfm-program-card-body {
+  padding-top: 16px;
+}
+.tfm-program-card-body h3 {
+  font-size: 22px;
+}
+.tfm-program-card-apresentador {
+  margin-top: 6px;
+  color: var(--tfm-text-secondary);
+  font-size: 14px;
+}
+.tfm-program-card-horario {
+  margin-top: 10px;
+  color: var(--tfm-red-dark);
+  font-size: 13px;
+  font-weight: 650;
+}
+.tfm-program-card-descricao {
+  margin-top: 12px;
+  color: var(--tfm-text-muted);
+  font-size: 14px;
+  line-height: 1.65;
+}

@@ -1,0 +1,52 @@
+.tfm-carousel {
+  min-width: 0;
+}
+.tfm-carousel-viewport {
+  overflow: hidden;
+  touch-action: pan-y;
+}
+.tfm-carousel-track {
+  display: flex;
+  gap: 24px;
+  transform: translateX(calc(var(--tfm-i) * -1 * (100% + 24px) / var(--tfm-n)));
+  transition: transform 300ms ease-out;
+}
+.tfm-carousel-slide {
+  flex: 0 0 calc((100% - (var(--tfm-n) - 1) * 24px) / var(--tfm-n));
+  min-width: 0;
+}
+.tfm-carousel-controles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 24px;
+}
+.tfm-carousel-setas {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.tfm-carousel-seta {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--tfm-radius-md);
+  border: 1px solid var(--tfm-border-strong);
+  background: var(--tfm-white);
+  color: var(--tfm-text-primary);
+}
+.tfm-carousel-seta:hover {
+  background: var(--tfm-light-bg);
+}
+@media (max-width: 380px) {
+  .tfm-carousel-controles {
+    flex-wrap: wrap;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tfm-carousel-track {
+    transition: none;
+  }
+}
